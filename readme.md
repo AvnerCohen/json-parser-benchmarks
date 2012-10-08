@@ -11,3 +11,6 @@ Intention is to try and add more and more implementaions or languages testing on
 To run execute the ruby script at the project's root:
 
     ruby benchmark.rb
+    
+    
+Requirment from any new folder is to have the executing program accept a file as a single argV param and have an executable named \*run\*.\* in the main benchmark folder. 
