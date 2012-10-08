@@ -1,10 +1,10 @@
 {
-  "name": "test json parsing",
+  "name": "json_stream_benchmark",
   "description": "Sample jso parsing benhmarking",
+  "version" : "0.0.1",
   "author": "Avner Cohen <israbirding@gmail.com>",
   "dependencies": {
-    "JSONStream": "",
-    "node-json-streams": ""
+    "JSONStream": ""
   },
   "engine": {"node" : ">=0.8"}
 }
