@@ -7,7 +7,7 @@
 @global_totals = Hash.new
 
 
-puts "About to run benchmarks for all folders inspected."
+puts "About to run benchmarks for all folders inspected.\nEach test will be executed #{@cycles} times."
 
 def run_single_benchmark(full_path_to_executable)
 	command=full_path_to_executable + " " +@json_file
@@ -38,7 +38,7 @@ end
 
 def print_totals
 @global_totals.each{|key, value| 
-	puts "For [#{key}] total is:" + (value/@cycles).to_s
+	puts "For [#{key}] average is:" + (value/@cycles).to_s
 	}
 end
 
